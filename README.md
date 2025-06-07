@@ -4,7 +4,7 @@ This repository contains a Python implementation of a **custom convolution-based
 
 ---
 
-## **📌 Overview**  
+## **Overview**  
 The project consists of two main functions:  
 1. **`downscaler_kernel()`** → Generates a custom kernel for downscaling.  
 2. **`convolution()`** → Applies the kernel to an image using convolution.  
@@ -13,7 +13,7 @@ The goal is to **reduce image resolution** while maintaining structural integrit
 
 ---
 
-## **⚙️ How It Works**  
+## **How It Works**  
 
 ### **1. `downscaler_kernel(size: int)`**  
 - Creates a **square kernel** of size `size × size`.  
@@ -40,7 +40,7 @@ The goal is to **reduce image resolution** while maintaining structural integrit
 
 ---
 
-## **🚀 Usage**  
+## **Usage**  
 
 ### **1. Requirements**  
 - Python 3.x  
@@ -96,12 +96,4 @@ plt.show()
 └── requirements.txt   # Dependencies
 ```
 
----
-
-## **📜 License**  
-This project is open-source under the **MIT License**.  
-
----
-
-**🎯 Goal**: A didactic implementation of image downscaling via convolution, useful for learning image processing fundamentals.  
 ---
