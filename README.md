@@ -81,7 +81,9 @@ plt.show()
 ---
 
 ## **🔍 Key Concepts**  
+
 ✅ **Manual Convolution** → No reliance on `cv2.filter2D` or `scipy.signal.convolve2d`.  
 ✅ **Custom Kernel** → Adjust weights to control blurring/downscaling effects.  
 ✅ **Stride Control** → The `step` parameter allows flexible downscaling.  
+
 ---
